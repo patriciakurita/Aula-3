@@ -25,22 +25,19 @@ footer{
 	margin-top: 5px;
 	background-color: #21DAFF;
 	border-radius: 40px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-right: 40px;
 }
 .logo{
-	display: flex;
-	align-items: flex-start;
 	color: #fff;
 	margin-top: 10px;
 	margin-left: 200px;
-	position: absolute;
 	left: 50;
 	font-family: verdana;
 	font-size: x-large;
 	font-weight: strong;
+	position: fixed;
 }
 .footnote{
 		margin-top: 30px;
@@ -66,6 +63,7 @@ a{
 	text-decoration: none;
 	font-family: verdana, arial, cursive;
 	color: #fff;
+	display: flex;
 }
 .box{
 	width: 250px;
